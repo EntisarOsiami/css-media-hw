@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blocksy -clone</title>
     <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
   </head>
 
   <body>
@@ -14,38 +16,37 @@
       <header class="site-header">
         <div class="header-grid">
           <div class="logo">
-            <img
-              src="./imges/logo-light-v2.svg"
-              alt="Blocksy Logo"
-              class="default-logo"
-            />
+            <img src="./imges/logo-light-v2.svg" alt="Blocksy Logo" />
           </div>
 
-          <nav class="main-nav">
-            <ul>
-              <li><a href="#">Premium</a></li>
-              <li><a href="#">Starter Sites</a></li>
-              <li><a href="#">Pricing</a></li>
-              <li><a href="#">Help ▼</a></li>
-              <li><a href="#">More ▼</a></li>
-            </ul>
-          </nav>
+          <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+          <label for="nav-toggle" class="menu-icon">☰</label>
 
-          <div class="actions">
-            <a href="#">My Account</a>
-            <a
-              href="https://wordpress.org/themes/blocksy/"
-              class="download-btn"
-              data-size="small"
-              aria-label="Free Download"
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-            >
-              Free Download
-            </a>
+          <div class="nav-wrapper">
+            <nav class="main-nav">
+              <ul>
+                <li><a href="#">Premium</a></li>
+                <li><a href="#">Starter Sites</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Help ▼</a></li>
+                <li><a href="#">More ▼</a></li>
+              </ul>
+            </nav>
+            <div class="actions">
+              <a href="#">My Account</a>
+              <a
+                href="https://wordpress.org/themes/blocksy/"
+                class="download-btn"
+                target="_blank"
+                rel="noopener"
+              >
+                Free Download
+              </a>
+            </div>
           </div>
         </div>
       </header>
+      
 
       <section class="hero-banner">
         <div class="hero-dots left"></div>
@@ -935,8 +936,6 @@
             </form>
           </div>
         </section>
-
-
       </main>
 
       <footer class="site-footer">
@@ -983,14 +982,19 @@
           <div class="ct-container footer-bottom-grid">
             <p class="copyright">© 2025 – WordPress Theme by Creative Themes</p>
             <div class="footer-socials">
-              <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-              <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" aria-label="Facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
               <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
-              <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+              <a href="#" aria-label="YouTube"
+                ><i class="fab fa-youtube"></i
+              ></a>
             </div>
           </div>
         </div>
-        
       </footer>
     </div>
   </body>
