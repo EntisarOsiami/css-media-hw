@@ -20,7 +20,6 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  
   overflow: clip;
 }
 
@@ -113,8 +112,7 @@ body {
 .main-content {
   flex: 1;
   background-color: #f0f4ff;
-  padding: 2rem;
-  max-width: 1290px;
+
   margin: 0 auto;
   width: 100%;
 }
@@ -210,8 +208,8 @@ body {
 
 /* Card styles */
 .main-content {
-  padding: 4rem 1.5rem;
   background-color: #fff;
+
 }
 
 .card-grid {
@@ -311,8 +309,7 @@ body {
 }
 
 .ct-container.subscribe {
-  max-width: 1280px;
-  margin: 0 auto;
+
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -383,32 +380,6 @@ body {
 
 .subscribe-form .consent input[type="checkbox"] {
   margin-top: 0.25rem;
-}
-
-/* Responsive adjustments */
-@media (max-width: 992px) {
-  .ct-container.subscribe {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-  }
-  
-  .subscribe-text {
-    text-align: center;
-  }
-}
-
-@media (max-width: 576px) {
-  .subscribe-section {
-    padding: 3rem 1rem;
-  }
-  
-  .subscribe-text h2 {
-    font-size: 1.5rem;
-  }
-  
-  .subscribe-form .consent {
-    font-size: 0.8rem;
-  }
 }
 
 
@@ -567,5 +538,31 @@ body {
     text-align: center;
     height: auto;
     padding: 1rem 0;
+  }
+}
+
+
+@media (max-width: 992px) {
+  .ct-container.subscribe {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .subscribe-text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .subscribe-section {
+    padding: 3rem 1rem;
+  }
+
+  .subscribe-text h2 {
+    font-size: 1.5rem;
+  }
+
+  .subscribe-form .consent {
+    font-size: 0.8rem;
   }
 }
