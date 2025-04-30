@@ -35,13 +35,16 @@ body {
 .header-grid {
   display: grid;
   grid-template-columns: auto 1fr auto;
-  grid-template-rows: 100px;
-  grid-template-areas: "logo main-nav actions";
+  grid-template-areas: "logo nav actions";
   align-items: center;
+  justify-content: space-between;
   max-width: 1290px;
   margin: 0 auto;
   height: 80px;
+  padding: 0 1.5rem; 
+  position: relative;
 }
+
 
 /* Logo styles */
 .logo {
@@ -55,12 +58,21 @@ body {
 }
 
 /* Main navigation */
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
 .main-nav ul {
   display: flex;
-  gap: 50px;
+  align-items: center;
   justify-content: center;
+  gap: 2rem;
   list-style: none;
 }
+
 
 .main-nav a,
 .actions a {
